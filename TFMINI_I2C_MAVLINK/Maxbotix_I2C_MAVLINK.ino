@@ -139,22 +139,22 @@ void loop() {
 /*(0=forward, each increment is 45degrees more in clockwise direction), 24 (upwards) or 25 (downwards)*/
 //command_heartbeat();
 
-  wireRead(3, 1);
+  wireRead(112, 1);
   //Serial.print (distance);
   //Serial.print (" - ");
  command_distance(24 ,distance);
 
-  wireRead(4, 1);
+  wireRead(113, 1);
   //Serial.print (distance);
   //Serial.print (" - ");
  command_distance(7 ,distance);
  
-  wireRead(5, 1);
+  wireRead(114, 1);
   //Serial.print (distance);
   //Serial.print (" - ");
   command_distance(0 ,distance);
  
-  wireRead(6, 1);
+  wireRead(115, 1);
   //Serial.println (distance);
   command_distance(1 ,distance);
   //delay(wait);
